@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Персонажи - Эльдория</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Добавь эту строку -->
+    <title>...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</head>
+<body>
+    <header>
+        <h1>Эльдория: Хроники Света</h1>
+   
+       <!-- Бургер-меню -->
+<div class="menu-toggle" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<!-- Навигация -->
+<nav id="main-nav">
+    <a href="index.html">Главная</a>
+    <a href="characters.html">Персонажи</a>
+    <a href="world.html">Мир игры</a>
+</nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Выберите класс персонажа</h2>
+            <ul>
+                <li><strong>Воин</strong> — мастер меча и щита, защитник отряда.</li>
+                <li><strong>Маг</strong> — колдун, управляющий стихиями и древними заклинаниями.</li>
+                <li><strong>Разбойник</strong> — ловкий и быстрый, мастер скрытности и ядов.</li>
+            </ul>
+            <img src="images/chars.jpg" alt="Классы персонажей">
+        </section>
+
+        <section>
+            <h2>Вернуться</h2>
+            <button onclick="location.href='index.html'">На главную</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Эльдория: Хроники Света</p>
+    </footer>
+<script>
+    function toggleMenu() {
+        document.getElementById('main-nav').classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>

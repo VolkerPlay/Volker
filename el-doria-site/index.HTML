@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Эльдория: Хроники Света</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Добавь эту строку -->
+    <title>...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</head>
+<body>
+    <header>
+        <h1>Эльдория: Хроники Света</h1>
+        <!-- Бургер-меню -->
+<div class="menu-toggle" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<!-- Навигация -->
+<nav id="main-nav">
+    <a href="index.html">Главная</a>
+    <a href="characters.html">Персонажи</a>
+    <a href="world.html">Мир игры</a>
+</nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Добро пожаловать в мир Эльдории</h2>
+            <p>«Эльдория: Хроники Света» — это текстово-графическая ММО RPG, где ваша история начинается с первого шага.</p>
+            <img src="images/el1.jpg" alt="Эльдория - фэнтезийный мир">
+            <p>Выбирайте класс, выполняйте квесты, сражайтесь с монстрами и исследуйте древние земли!</p>
+        </section>
+
+        <section>
+            <h2>Начать игру</h2>
+            <button onclick="location.href='characters.html'">Создать персонажа</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Эльдория: Хроники Света</p>
+    </footer>
+<script>
+    function toggleMenu() {
+        document.getElementById('main-nav').classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>

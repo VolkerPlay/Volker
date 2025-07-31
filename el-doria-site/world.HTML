@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мир игры - Эльдория</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Добавь эту строку -->
+    <title>...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</head>
+<body>
+    <header>
+        <h1>Эльдория: Хроники Света</h1>
+      <!-- Бургер-меню -->
+<div class="menu-toggle" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<!-- Навигация -->
+<nav id="main-nav">
+    <a href="index.html">Главная</a>
+    <a href="characters.html">Персонажи</a>
+    <a href="world.html">Мир игры</a>
+</nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Мир Эльдории</h2>
+            <p>Эльдория — это обширный фэнтезийный мир, состоящий из множества регионов:</p>
+            <ul>
+                <li><strong>Леса Эльвий</strong> — дом эльфов, наполненный магией.</li>
+                <li><strong>Горы Дварфгар</strong> — крепости гномов и драконов.</li>
+                <li><strong>Пустоши Смерти</strong> — земля, поражённая тьмой.</li>
+            </ul>
+            <img src="images/map.jpg" alt="Карта Эльдории">
+        </section>
+
+        <section>
+            <h2>Вернуться</h2>
+            <button onclick="location.href='index.html'">На главную</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Эльдория: Хроники Света</p>
+    </footer>
+<script>
+    function toggleMenu() {
+        document.getElementById('main-nav').classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
